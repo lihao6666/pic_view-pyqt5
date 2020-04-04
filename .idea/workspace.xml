@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba6ccbc2-5c3c-4f1b-b77c-308535d690a9" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ba6ccbc2-5c3c-4f1b-b77c-308535d690a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/图片分类查询系统.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/图片分类查询系统.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageArea.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageArea.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageList.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MakeHtml.py" beforeDir="false" afterPath="$PROJECT_DIR$/MakeHtml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Menu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/VisualMenu.py" beforeDir="false" afterPath="$PROJECT_DIR$/VisualMenu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/background/timg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_bar.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_bar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/class_pie.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/class_pie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test3.py" beforeDir="false" afterPath="$PROJECT_DIR$/test3.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,31 +34,54 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1QlRi7BXhK8F1JRJuDRD8W1qcWq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../数据库课设/main.py" />
-    <property name="settings.editor.selected.configurable" value="kite.configurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lh\Desktop\图片分类查询系统" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\编程文件\python\图片分类查询系统" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.test2">
-    <configuration name="ImageArea" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="托尔斯泰" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="图片分类查询系统" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/托尔斯泰.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="图片分类查询系统" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,29 +94,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageArea.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="图片分类查询系统" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../数据库课设" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../数据库课设/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.test2" />
+        <item itemvalue="Python.托尔斯泰" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.test3" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.ImageArea" />
       </list>
     </recent_temporary>
   </component>
@@ -175,17 +195,59 @@
       <workItem from="1569052708662" duration="9855000" />
       <workItem from="1569148953321" duration="7325000" />
       <workItem from="1569331478507" duration="1459000" />
+      <workItem from="1574687854605" duration="5446000" />
+      <workItem from="1574694702583" duration="503000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/$ImageArea.coverage" NAME="ImageArea Coverage Results" MODIFIED="1569029479875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1569332189446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$test.coverage" NAME="test Coverage Results" MODIFIED="1569156951463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1569153914115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/$main.coverage" NAME="main Coverage Results" MODIFIED="1569033988962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../数据库课设" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="312" y="88" key="#Notifications" timestamp="1582540551742">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="88" key="#Notifications/0.0.1440.860@0.0.1440.860" timestamp="1582540551742" />
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1582541184265">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1582541184265" />
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom" timestamp="1582628273245">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1582628273245" />
+    <state width="1419" height="204" key="GridCell.Tab.0.center" timestamp="1582628273245">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1582628273245" />
+    <state width="1419" height="204" key="GridCell.Tab.0.left" timestamp="1582628273245">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1582628273245" />
+    <state width="1419" height="204" key="GridCell.Tab.0.right" timestamp="1582628273245">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1419" height="204" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1582628273245" />
+    <state x="221" y="72" key="SettingsEditor" timestamp="1582541196468">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="221" y="72" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1582541196468" />
+    <state x="405" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1582594121035">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="405" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1582594121035" />
   </component>
 </project>

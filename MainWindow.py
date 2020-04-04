@@ -11,7 +11,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1460, 1000)
+        MainWindow.resize(1460, 800)
         # palette1 = QtGui.QPalette()
         # palette1.setColor(QtGui.QPalette.Background, QtGui.QColor(192,253,123))   # 设置背景颜色
         # palette1.setBrush(QtGui.QPalette.Background, QtGui.QBrush(QtGui.QPixmap("./background/start.jpg").scaled(MainWindow.size())))  # 设置背景图片
@@ -28,16 +28,58 @@ class Ui_MainWindow(object):
         self.menuview = QtWidgets.QMenu(self.menubar)
         self.menuview.setObjectName("menuview")
         MainWindow.setMenuBar(self.menubar)
-        self.statusbar = QtWidgets.QStatusBar(MainWindow)
-        self.statusbar.setObjectName("statusbar")
-        MainWindow.setStatusBar(self.statusbar)
+
+        self.menuview_one = QtWidgets.QMenu(self.menuview)
+        self.menuview_one.setObjectName("menuview_one")
+        self.menuview_many = QtWidgets.QMenu(self.menuview)
+        self.menuview_many.setObjectName("menuview_many")
+        # self.menuview_pixel = QtWidgets.QMenu(self.menuview)
+        # self.menuview_pixel.setObjectName("menuview_pixel")
+
+
+        # self.statusbar = QtWidgets.QStatusBar(MainWindow)
+        # self.statusbar.setObjectName("statusbar")
+        # MainWindow.setStatusBar(self.statusbar)
         self.actionopen = QtWidgets.QAction(MainWindow)
         self.actionopen.setObjectName("actionopen")
-        self.actionviusal_menu = QtWidgets.QAction(MainWindow)
-        self.actionviusal_menu.setObjectName("actionviusal_menu")
-        self.actionviusal_menu.setEnabled(False)
+        self.actionopen2 = QtWidgets.QAction(MainWindow)
+        self.actionopen2.setObjectName("actionopen2")
+
+        self.actionviusal_menu1 = QtWidgets.QAction(MainWindow)
+        self.actionviusal_menu1.setObjectName("actionviusal_menu1")
+        self.actionviusal_menu1.setEnabled(False)
+
+        # self.actionviusal_table1 = QtWidgets.QAction(MainWindow)
+        # self.actionviusal_table1.setObjectName("actionviusal_table1")
+        # self.actionviusal_table1.setEnabled(False)
+
+        self.actionviusal_menu2 = QtWidgets.QAction(MainWindow)
+        self.actionviusal_menu2.setObjectName("actionviusal_menu2")
+        self.actionviusal_menu2.setEnabled(False)
+
+        self.actionviusal_table2 = QtWidgets.QAction(MainWindow)
+        self.actionviusal_table2.setObjectName("actionviusal_table2")
+        self.actionviusal_table2.setEnabled(False)
+
+        self.actionviusal_menu3 = QtWidgets.QAction(MainWindow)
+        self.actionviusal_menu3.setObjectName("actionviusal_menu3")
+        self.actionviusal_menu3.setEnabled(False)
+
+
         self.menufile.addAction(self.actionopen)
-        self.menuview.addAction(self.actionviusal_menu)
+        self.menufile.addAction(self.actionopen2)
+
+        self.menuview_one.addAction(self.actionviusal_menu1)
+        # self.menuview_one.addAction(self.actionviusal_table1)
+        self.menuview_many.addAction(self.actionviusal_menu2)
+        self.menuview_many.addAction(self.actionviusal_table2)
+        self.menuview.addAction(self.menuview_one.menuAction())
+        self.menuview.addAction(self.menuview_many.menuAction())
+        self.menuview.addAction(self.actionviusal_menu3)
+
+
+
+
         self.menubar.addAction(self.menufile.menuAction())
         self.menubar.addAction(self.menuview.menuAction())
 
@@ -52,10 +94,28 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "数据集图像筛查系统"))
         self.menufile.setTitle(_translate("MainWindow", "File"))
-        self.actionopen.setText(_translate("MainWindow", "Open         "))
+        self.actionopen.setText(_translate("MainWindow", "Open-Roi         "))
         self.actionopen.setShortcut(_translate("MainWindow", "Ctrl+O"))
+        self.actionopen2.setText(_translate("MainWindow", "Open-Remote         "))
+        self.actionopen2.setShortcut(_translate("MainWindow", "Ctrl+H"))
         self.menuview.setTitle(_translate("MainWindow", "View"))
-        self.actionviusal_menu.setText(_translate("MainWindow", "Viusal_Menu"))
-        self.actionviusal_menu.setShortcut(_translate("MainWindow","Ctrl+W"))
+        self.menuview_one.setTitle(_translate("MainWindow", "View-One"))
+        self.menuview_many.setTitle(_translate("MainWindow", "View-Many"))
+
+        self.actionviusal_menu1.setText(_translate("MainWindow", "Viusal_Menu"))
+        self.actionviusal_menu1.setShortcut(_translate("MainWindow","Ctrl+W"))
+        # self.actionviusal_table1.setText(_translate("MainWindow", "Viusal_Table"))
+        # self.actionviusal_table1.setShortcut(_translate("MainWindow","Ctrl+E"))
+
+        self.actionviusal_menu2.setText(_translate("MainWindow", "Viusal_Menu"))
+        self.actionviusal_menu2.setShortcut(_translate("MainWindow","Ctrl+B"))
+        self.actionviusal_table2.setText(_translate("MainWindow", "Viusal_Table"))
+        self.actionviusal_table2.setShortcut(_translate("MainWindow","Ctrl+N"))
+
+        self.actionviusal_menu3.setText(_translate("MainWindow", "Viusal_Pixel"))
+        self.actionviusal_menu3.setShortcut(_translate("MainWindow","Ctrl+G"))
+
+
+        
 
 

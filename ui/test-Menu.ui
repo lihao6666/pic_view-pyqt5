@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuview">
+    <property name="title">
+     <string>view</string>
+    </property>
+    <widget class="QMenu" name="menuview_one">
+     <property name="title">
+      <string>view-one</string>
+     </property>
+     <addaction name="separator"/>
+     <addaction name="actionVisual_Menu"/>
+    </widget>
+    <widget class="QMenu" name="menuview_many">
+     <property name="title">
+      <string>view-many</string>
+     </property>
+     <addaction name="actionVisual_Menu_2"/>
+    </widget>
+    <addaction name="menuview_one"/>
+    <addaction name="menuview_many"/>
+   </widget>
+   <addaction name="menuview"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionVisual_Menu">
+   <property name="text">
+    <string>Visual_Menu</string>
+   </property>
+  </action>
+  <action name="actionVisual_Menu_2">
+   <property name="text">
+    <string>Visual-Menu</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

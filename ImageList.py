@@ -14,7 +14,7 @@ class ImageList(QWidget):
         super(ImageList, self).__init__()
 
         self.listwidget = QListWidget(self)
-        self.listwidget.setFixedHeight(800)
+        self.listwidget.setFixedHeight(600)
         self.listwidget.clicked.connect(self.change_func)
 
         self.h_layout = QHBoxLayout()
